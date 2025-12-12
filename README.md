@@ -36,7 +36,7 @@ flowchart LR
 │   ├── dynamodb/          # Rides table
 │   ├── iam/               # Lambda execution role
 │   └── lambda/            # RequestUnicorn function
-└── static-site/           # Frontend (for Amplify deployment)
+└── wildrydes-site/        # Frontend (for Amplify deployment)
 ```
 
 ## Deployment
