@@ -7,7 +7,7 @@ AWS serverless backend for Wild Rydes unicorn ride-sharing application.
 ```mermaid
 flowchart LR
     subgraph Frontend
-        A[Static Site<br/>Amplify]
+        A[Wildrydes Site<br/>Amplify]
     end
     subgraph Auth
         B[Cognito<br/>User Pool]
