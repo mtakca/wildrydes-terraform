@@ -75,7 +75,7 @@ terraform apply
 
 ## Frontend Config
 
-Update `static-site/js/config.js` with Terraform outputs:
+Update `wildrydes-site/js/config.js` with Terraform outputs:
 
 ```js
 window._config = {
