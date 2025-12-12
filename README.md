@@ -48,14 +48,12 @@ terraform plan
 terraform apply
 ```
 
-## Future Roadmap (God Mode)
-
-The following enhancements are planned to elevate the infrastructure to "Elite DevOps Architect" standards:
+## Future Roadmap
 
 ### Phase 1: Foundation (State & Security)
 - [ ] **Remote Backend:** Migrate local state to S3 + DynamoDB for team collaboration and locking.
 - [ ] **Security Hardening:** Implement AWS WAF for API Gateway and enable encryption at rest/transit everywhere.
-- [ ] **OIDC Authentication:** Configure GitHub Actions OIDC for passwordless AWS access (Zero Trust).
+- [ ] **OIDC Authentication:** Configure GitHub Actions OIDC for passwordless AWS access.
 
 ### Phase 2: Automation (CI/CD)
 - [ ] **Pipeline:** Implement GitHub Actions workflow (Fmt -> Validate -> Plan -> Tfsec -> Apply).
