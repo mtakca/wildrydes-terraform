@@ -48,6 +48,25 @@ terraform plan
 terraform apply
 ```
 
+## Future Roadmap (God Mode)
+
+The following enhancements are planned to elevate the infrastructure to "Elite DevOps Architect" standards:
+
+### Phase 1: Foundation (State & Security)
+- [ ] **Remote Backend:** Migrate local state to S3 + DynamoDB for team collaboration and locking.
+- [ ] **Security Hardening:** Implement AWS WAF for API Gateway and enable encryption at rest/transit everywhere.
+- [ ] **OIDC Authentication:** Configure GitHub Actions OIDC for passwordless AWS access (Zero Trust).
+
+### Phase 2: Automation (CI/CD)
+- [ ] **Pipeline:** Implement GitHub Actions workflow (Fmt -> Validate -> Plan -> Tfsec -> Apply).
+- [ ] **Guardrails:** Add `checkov` or `tfsec` security scanning in PR checks.
+- [ ] **Semantic Versioning:** Automate release tagging.
+
+### Phase 3: Observability (Day-2 Ops)
+- [ ] **Tracing:** Enable AWS X-Ray for end-to-end request tracing (Lambda <-> DynamoDB).
+- [ ] **Monitoring:** Setup CloudWatch Alarms for Lambda error rates and API latency.
+- [ ] **Structured Logging:** Implement Lambda PowerTools for JSON logging.
+
 ## Outputs
 
 | Output | Description |
